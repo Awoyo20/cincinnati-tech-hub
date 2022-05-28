@@ -1,0 +1,96 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    left: 0;
+}
+
+body{
+    padding-left: 20px;
+    overflow: scroll;
+}
+main .bg{
+    width: 200%;
+    height: 100vh;
+    margin-left: 20px;
+}
+.name{
+    font-size: 20px;
+    color: navy;
+    padding-left: 60px;
+    top: 100px;
+}
+.nav-bar{
+    padding-left: 600px;
+
+}
+.nav-item{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+.text{
+    position: relative;
+    bottom: 300px;
+}
+.lorem1{
+    color: gray;
+}
+.shala{
+    text-align: center; 
+}  
+    
+
+
+.container1{
+    width: 300px;
+    height: 200px;
+    color: blue;
+    background-color: aqua;
+}
+.container2{
+    width: 300px;
+    height: 200px;
+    color: purple;
+    background-color: black;
+}
+.container3{
+    width: 300px;
+    height: 200px;
+    color: red;
+    background-color: #fff;
+}
+.container4{
+    width: 300px;
+    height: 200px;
+    color: blue;
+    background-color: yellowgreen;
+}
+.container5{
+    width: 300px;
+    height: 200px;
+    color: palevioletred;
+    background-color: #7676;
+}
+.container{
+display: grid;
+grid-template-columns: 2fr 1fr 2fr;
+animation-iteration-count: inherit;
+}
+.final{
+    text-align: center;
+    margin-top: 100px;
+    color: aqua;
+}
+.final2{
+    background-color: green;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
